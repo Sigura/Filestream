@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStream.Server", "FileStream.Server\FileStream.Server.csproj", "{C93AC8FD-7546-4ECF-A3A4-870158998A9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStream.Server.Host", "FileStream.Server.Host\FileStream.Server.Host.csproj", "{3C439387-E162-46BD-91A5-F1EBC99DF32D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStream.Contracts", "FileStream.Contracts\FileStream.Contracts.csproj", "{6AD619A3-36BE-435A-BC3C-F14E08FE6A0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStream.Client.Host", "FileStream.Client.Host\FileStream.Client.Host.csproj", "{077D0F37-5493-4922-891E-4FF73B82D010}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStream.Common", "FileStream.Common\FileStream.Common.csproj", "{3FB225E4-C377-410E-BA7D-1DCD18014A13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStream.DAL", "DAL\FileStream.DAL.csproj", "{BE2D17B5-2F01-41E3-A31A-77550B7BF5D2}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "FileStream.Database", "Database\FileStream.Database.sqlproj", "{0E5853FA-30A6-46C5-B607-D02F2FFB1540}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStream.Tests", "FileStream.Tests\FileStream.Tests.csproj", "{678AADA4-FD2B-4E2D-9DE1-F80DFBA5DBF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C93AC8FD-7546-4ECF-A3A4-870158998A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C93AC8FD-7546-4ECF-A3A4-870158998A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C93AC8FD-7546-4ECF-A3A4-870158998A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C93AC8FD-7546-4ECF-A3A4-870158998A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C439387-E162-46BD-91A5-F1EBC99DF32D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C439387-E162-46BD-91A5-F1EBC99DF32D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C439387-E162-46BD-91A5-F1EBC99DF32D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C439387-E162-46BD-91A5-F1EBC99DF32D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AD619A3-36BE-435A-BC3C-F14E08FE6A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AD619A3-36BE-435A-BC3C-F14E08FE6A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AD619A3-36BE-435A-BC3C-F14E08FE6A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AD619A3-36BE-435A-BC3C-F14E08FE6A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{077D0F37-5493-4922-891E-4FF73B82D010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{077D0F37-5493-4922-891E-4FF73B82D010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{077D0F37-5493-4922-891E-4FF73B82D010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{077D0F37-5493-4922-891E-4FF73B82D010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FB225E4-C377-410E-BA7D-1DCD18014A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB225E4-C377-410E-BA7D-1DCD18014A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB225E4-C377-410E-BA7D-1DCD18014A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB225E4-C377-410E-BA7D-1DCD18014A13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE2D17B5-2F01-41E3-A31A-77550B7BF5D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE2D17B5-2F01-41E3-A31A-77550B7BF5D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE2D17B5-2F01-41E3-A31A-77550B7BF5D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE2D17B5-2F01-41E3-A31A-77550B7BF5D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E5853FA-30A6-46C5-B607-D02F2FFB1540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E5853FA-30A6-46C5-B607-D02F2FFB1540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E5853FA-30A6-46C5-B607-D02F2FFB1540}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0E5853FA-30A6-46C5-B607-D02F2FFB1540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E5853FA-30A6-46C5-B607-D02F2FFB1540}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E5853FA-30A6-46C5-B607-D02F2FFB1540}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{678AADA4-FD2B-4E2D-9DE1-F80DFBA5DBF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{678AADA4-FD2B-4E2D-9DE1-F80DFBA5DBF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{678AADA4-FD2B-4E2D-9DE1-F80DFBA5DBF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{678AADA4-FD2B-4E2D-9DE1-F80DFBA5DBF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.0\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Logging.5.0.505.0\lib\NET35;packages\EntLibContrib.Logging.5.0.505.0\lib\NET35;packages\EntLibContrib.Common.5.0.505.0\lib\NET35;packages\EntLibContrib.Query.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Data.5.0.505.0\lib\NET35;packages\EntLibContrib.Query.Database.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.ExceptionHandling.5.0.505.0\lib\NET35;packages\EntLibContrib.ExceptionHandling.5.0.505.0\lib\NET35
+	EndGlobalSection
+EndGlobal
